@@ -25,16 +25,16 @@ body {
 	width: 500px;
 	height: 500px;
 	padding: 20px;
-	border: 5px solid pink;
+	border: 5px solid white;
 	border-radius: 10px;
-	background-color: black;
+	background-color: pink;
 }
 
 .row {
 	background-color: pink;
 }
 
-.tile {
+.grid-tile {
 	width: 7.6em;
 	height: 7.6em;
 	display: inline-block;
@@ -49,4 +49,20 @@ body {
 	height: 7.6em;
 	display: inline-block;
 	margin: 5px;
+}
+
+.taken-tile {
+	background-color: yellow;
+}
+
+.tile {
+	background-color: white;
+	opacity: 0.8;
+	width: 7.6em;
+	height: 7.6em;
+	position: absolute;
+	z-index: 10;
+	margin: 5px;
+	/*margin-left: -10px;*/
+	padding: 25px;
 }
